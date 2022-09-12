@@ -11,7 +11,7 @@ html {
 .main-header {
     min-height: 65vh;
     max-width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(./banner.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/banner.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -136,8 +136,8 @@ html {
 }
 
 .row {
-    margin: 2% 5%; 
-    display: flex; 
+    margin: 2% 5%;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -147,7 +147,7 @@ html {
     padding: 15px 11px;
     border-radius: 10px;
     box-sizing: border-box;
-    transition: 0.5s;  
+    transition: 0.5s;
 }
 
 .row-head {
@@ -167,7 +167,7 @@ html {
 }
 
 .course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .campus {
@@ -216,24 +216,29 @@ html {
 }
 
 @keyframes slider {
-     0% {
+    0% {
         left: 0;
-     }
-     20% {
+    }
+
+    20% {
         left: 0;
-     }
-     25% {
+    }
+
+    25% {
         left: -50%;
-     }
-     45% {
+    }
+
+    45% {
         left: -50%;
-     }
-     50% {
+    }
+
+    50% {
         left: -100%;
-     }
-     70% {
+    }
+
+    70% {
         left: -100%;
-     }
+    }
 }
 
 .facility {
@@ -324,12 +329,12 @@ html {
 }
 
 .testimonial:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .testimonial1 {
     display: flex;
-    margin: 2% 5% ;
+    margin: 2% 5%;
     background: #fff3f3;
     padding: 18px 11px 10px 11px;
     border-radius: 10px;
@@ -338,7 +343,7 @@ html {
 }
 
 .testimonial1:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .testimonial-text {
@@ -357,7 +362,7 @@ html {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./banner2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./banner2.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -478,7 +483,7 @@ html {
 
     #navbar li a.active::after,
     #navbar li a:hover::after {
-    background: #fff;
+        background: #fff;
     }
 
     #mobile {
@@ -532,7 +537,7 @@ html {
     .course-pgh {
         font-size: 16px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     .row {
@@ -549,7 +554,7 @@ html {
         font-size: 20px;
         margin: 8px 0;
     }
-    
+
     .row-pgh {
         font-size: 16px;
     }
@@ -566,12 +571,13 @@ html {
     .camp-pgh {
         font-size: 16px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     #slider figure img {
         width: 15%;
-        height: 20%;
+        height: 158px;
+        object-fit: cover;
     }
 
     .facilities {
@@ -591,11 +597,11 @@ html {
         font-size: 26px;
         margin-bottom: 8px;
     }
-    
+
     .facility p {
         font-size: 16px;
         text-align: center;
-        width: 80%;  
+        width: 80%;
     }
 
     .facilities-img {
@@ -607,7 +613,7 @@ html {
     .facility-head {
         font-size: 20px;
     }
-    
+
     .facility-pgh {
         font-size: 16px;
         text-align: center;
@@ -679,11 +685,11 @@ html {
     html {
         scroll-behavior: smooth;
     }
-    
+
     #header {
         padding: 8% 8%;
     }
-    
+
     .logo {
         width: 51px;
     }
@@ -725,7 +731,7 @@ html {
 
     #navbar li a.active::after,
     #navbar li a:hover::after {
-    background: #fff;
+        background: #fff;
     }
 
     #mobile {
@@ -779,7 +785,7 @@ html {
     .course-pgh {
         font-size: 16px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     .row {
@@ -796,7 +802,7 @@ html {
         font-size: 20px;
         margin: 8px 0;
     }
-    
+
     .row-pgh {
         font-size: 16px;
     }
@@ -813,12 +819,12 @@ html {
     .camp-pgh {
         font-size: 16px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     #slider figure img {
         width: 15%;
-        height: 20%;
+        height: 220px;
     }
 
     .facilities {
@@ -838,11 +844,11 @@ html {
         font-size: 26px;
         margin-bottom: 8px;
     }
-    
+
     .facility p {
         font-size: 16px;
         text-align: center;
-        width: 80%;  
+        width: 80%;
     }
 
     .facilities-img {
@@ -854,7 +860,7 @@ html {
     .facility-head {
         font-size: 20px;
     }
-    
+
     .facility-pgh {
         font-size: 16px;
         text-align: center;
@@ -931,6 +937,7 @@ html {
     #header {
         padding: 8% 8%;
     }
+
     .logo {
         width: 52px;
     }
@@ -972,7 +979,7 @@ html {
 
     #navbar li a.active::after,
     #navbar li a:hover::after {
-    background: #fff;
+        background: #fff;
     }
 
     #mobile {
@@ -1026,7 +1033,7 @@ html {
     .course-pgh {
         font-size: 17px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     .row {
@@ -1043,7 +1050,7 @@ html {
         font-size: 21px;
         margin: 8px 0;
     }
-    
+
     .row-pgh {
         font-size: 17px;
     }
@@ -1060,12 +1067,12 @@ html {
     .camp-pgh {
         font-size: 17px;
         text-align: center;
-        width: 80%;   
+        width: 80%;
     }
 
     #slider figure img {
         width: 15%;
-        height: 20%;
+        height: 250px;
     }
 
     .facilities {
@@ -1085,11 +1092,11 @@ html {
         font-size: 30px;
         margin-bottom: 8px;
     }
-    
+
     .facility p {
         font-size: 17px;
         text-align: center;
-        width: 80%;  
+        width: 80%;
     }
 
     .facilities-img {
@@ -1101,7 +1108,7 @@ html {
     .facility-head {
         font-size: 21px;
     }
-    
+
     .facility-pgh {
         font-size: 17px;
         text-align: center;
@@ -1178,9 +1185,6 @@ html {
 }
 
 @media screen and (max-width: 900px) and (min-width: 769px) {
-    html {
-        scroll-behavior: smooth;
-    }
     
     #header {
         padding: 8% 8%;
@@ -1317,7 +1321,7 @@ html {
 
     #slider figure img {
         width: 15%;
-        height: 20%;
+        height: 300px;
     }
 
     .facilities {
@@ -1337,11 +1341,11 @@ html {
         font-size: 31px;
         margin-bottom: 8px;
     }
-    
+
     .facility p {
         font-size: 18px;
         text-align: center;
-        width: 80%;  
+        width: 80%;
     }
 
     .facilities-img {
@@ -1353,7 +1357,7 @@ html {
     .facility-head {
         font-size: 21px;
     }
-    
+
     .facility-pgh {
         font-size: 18px;
         text-align: center;
@@ -1428,193 +1432,3 @@ html {
         font-size: 22px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
